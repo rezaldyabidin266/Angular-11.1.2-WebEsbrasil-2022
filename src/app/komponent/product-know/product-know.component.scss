@@ -1,0 +1,24 @@
+section {
+    padding: 2.8rem 0;
+    padding-top: 3rem;
+}
+
+.effect1 {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.row>* {
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+
+@media (max-width: 576px) {
+    section {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 2.8rem;
+        padding-bottom: 2.5rem;
+    }
+}

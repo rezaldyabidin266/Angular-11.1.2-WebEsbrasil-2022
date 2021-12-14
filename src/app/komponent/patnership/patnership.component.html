@@ -1,0 +1,25 @@
+<section>
+    <div class="container-fluid">
+        <div class="row patnership-icon">
+            <owl-carousel-o [options]="customOptions" [classList]="owl" [class.owl-item]="owl">
+                <ng-container *ngFor="let slide of slides">
+                    <ng-template carouselSlide id="{{slide.id}}" let-owlItem>
+                        <div class="slide slide-custom ">
+                            <div class="img-wrap-icon effect8 d-flex justify-content-center align-items-center ">
+                                <img class="img-icon" [src]="slide.img">
+                            </div>
+                        </div>
+                    </ng-template>
+                </ng-container>
+            </owl-carousel-o>
+        </div>
+    </div>
+    <div class="container-md">
+        <div class="row">
+            <div class="img-wrap effect2">
+                <img class="img-custom" src="../../../assets/image/penjelasanEs/8.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+</section>

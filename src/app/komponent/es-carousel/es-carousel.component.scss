@@ -1,0 +1,121 @@
+section {
+    margin: 1rem 0;
+    padding: 3.5rem 0;
+    border-top: 8px dashed rgba(128, 128, 128, 0.562);
+    border-bottom: 8px dashed rgba(128, 128, 128, 0.562);
+    h3 {
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+        font-size: 7rem;
+        font-weight: bold;
+        .b {
+            color: rgba(255, 0, 0, 0.678);
+            font-family: 'Lily Script One', cursive;
+        }
+    }
+    h4 {
+        font-family: 'Marck Script', cursive;
+        font-size: 2.2rem;
+        color: red;
+        font-weight: 600;
+    }
+    .carou {
+        margin-top: 2rem;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) {
+    section {
+        h3 {
+            font-size: 6rem;
+        }
+        h4 {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {
+    section {
+        h3 {
+            font-size: 5rem;
+        }
+        h4 {
+            font-size: 2rem;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+    section {
+        h3 {
+            font-size: 4rem;
+        }
+        h4 {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+    section {
+        h3 {
+            font-size: 3.8rem;
+        }
+        h4 {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        h3 {
+            font-size: 3rem;
+        }
+        h4 {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.effect8 {
+    position: relative;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.effect8:before,
+.effect8:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    -moz-border-radius: 100px / 10px;
+    border-radius: 100px / 10px;
+}
+
+.effect8:after {
+    right: 10px;
+    left: auto;
+    -webkit-transform: skew(8deg) rotate(3deg);
+    -moz-transform: skew(8deg) rotate(3deg);
+    -ms-transform: skew(8deg) rotate(3deg);
+    -o-transform: skew(8deg) rotate(3deg);
+    transform: skew(8deg) rotate(3deg);
+}

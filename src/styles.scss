@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&display=swap');
+// IMPORT ANIMATE CSS
+@import '~animate.css/animate.min';
+//AOS
+@import 'aos/dist/aos.css';
+html {
+    font-family: 'Roboto Slab', serif;
+}

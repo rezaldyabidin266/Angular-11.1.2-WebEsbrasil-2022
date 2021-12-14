@@ -1,0 +1,15 @@
+<section>
+    <div class="carou">
+        <owl-carousel-o [options]="customOptions" [classList]="owl" [class.owl-item]="owl">
+            <ng-container *ngFor="let slide of slides">
+                <ng-template carouselSlide id="{{slide.id}}" let-owlItem>
+                    <div class="slide">
+                        <div class="img-wrap effect8 ">
+                            <img class="img-fluid" [src]="slide.img">
+                        </div>
+                    </div>
+                </ng-template>
+            </ng-container>
+        </owl-carousel-o>
+    </div>
+</section>

@@ -1,0 +1,24 @@
+footer {
+    text-align: center;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    height: auto;
+    .img-wrap {
+        img {
+            max-width: 100%;
+            height: auto;
+            width: 160px;
+        }
+    }
+    .copy {
+        margin-top: -15px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .footer-icon {
+        .footer-icon-mid {
+            margin: 0 30px;
+        }
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+}

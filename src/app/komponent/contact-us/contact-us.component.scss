@@ -1,0 +1,99 @@
+section {
+    padding: 3rem 0;
+    .img-wrap {
+        margin-bottom: 2rem;
+    }
+}
+
+.kartu {
+    margin-top: 4rem;
+}
+
+.row-custom>* {
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+
+.contact {
+    h3 {
+        font-size: 1.7rem;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        line-height: 3rem;
+    }
+    .buttons {
+        margin-top: 3rem;
+        .btn-wa {
+            background: #28A745 !important;
+            border: #28A745 !important;
+        }
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) {}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {
+    .contact {
+        h3 {
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+        }
+        .buttons {
+            margin-top: 3rem;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+    .contact {
+        h3 {
+            font-size: 1.25rem;
+            line-height: 2rem;
+        }
+        .buttons {
+            margin-top: 3rem;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+    .contact {
+        padding: 1.4rem 0;
+        h3 {
+            width: 80%;
+            margin: 0 auto;
+            font-size: 1.25rem;
+            line-height: 2rem;
+        }
+        .buttons {
+            margin-top: 1.5rem;
+            .btn-wa {
+                font-size: 1rem !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 1rem;
+    }
+    .contact {
+        h3 {
+            width: 85%;
+            margin: 0 auto;
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+        }
+        .buttons {
+            margin-top: 1.5rem;
+        }
+    }
+}
